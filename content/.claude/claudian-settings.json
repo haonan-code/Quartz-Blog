@@ -1,0 +1,73 @@
+{
+  "userName": "haonan",
+  "enableBlocklist": true,
+  "blockedCommands": {
+    "unix": [
+      "rm -rf",
+      "chmod 777",
+      "chmod -R 777"
+    ],
+    "windows": [
+      "del /s /q",
+      "rd /s /q",
+      "rmdir /s /q",
+      "format",
+      "diskpart",
+      "Remove-Item -Recurse -Force",
+      "Remove-Item -Force -Recurse",
+      "Remove-Item -r -fo",
+      "Remove-Item -fo -r",
+      "Remove-Item -Recurse",
+      "Remove-Item -r",
+      "ri -Recurse",
+      "ri -r",
+      "ri -Force",
+      "ri -fo",
+      "rm -r -fo",
+      "rm -Recurse",
+      "rm -Force",
+      "del -Recurse",
+      "del -Force",
+      "erase -Recurse",
+      "erase -Force",
+      "rd -Recurse",
+      "rmdir -Recurse",
+      "Format-Volume",
+      "Clear-Disk",
+      "Initialize-Disk",
+      "Remove-Partition"
+    ]
+  },
+  "permissionMode": "yolo",
+  "model": "GLM-4.7",
+  "thinkingBudget": "off",
+  "enableAutoTitleGeneration": true,
+  "titleGenerationModel": "",
+  "show1MModel": false,
+  "excludedTags": [],
+  "mediaFolder": "",
+  "systemPrompt": "",
+  "allowedExportPaths": [
+    "~/Desktop",
+    "~/Downloads"
+  ],
+  "persistentExternalContextPaths": [],
+  "environmentVariables": "ANTHROPIC_BASE_URL=https://open.bigmodel.cn/api/anthropic\nANTHROPIC_API_KEY=a61cc10121d24b399ccab008569febd9.efKRyou3Vm3PkVY1\nANTHROPIC_DEFAULT_OPUS_MODEL=GLM-4.7",
+  "envSnippets": [],
+  "keyboardNavigation": {
+    "scrollUpKey": "w",
+    "scrollDownKey": "s",
+    "focusInputKey": "i"
+  },
+  "locale": "zh-CN",
+  "claudeCliPath": "",
+  "claudeCliPathsByHost": {
+    "DESKTOP-8DIL0DQ": ""
+  },
+  "loadUserClaudeSettings": true,
+  "lastClaudeModel": "haiku",
+  "lastCustomModel": "",
+  "lastEnvHash": "ANTHROPIC_BASE_URL=https://open.bigmodel.cn/api/anthropic|ANTHROPIC_DEFAULT_OPUS_MODEL=GLM-4.7",
+  "enabledPlugins": [],
+  "maxTabs": 3
+}

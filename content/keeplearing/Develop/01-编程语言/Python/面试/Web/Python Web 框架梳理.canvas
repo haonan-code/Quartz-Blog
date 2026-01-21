@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"7e02add2e392816d","type":"text","text":"Python Web 框架梳理","x":-380,"y":-80,"width":250,"height":60},
+		{"id":"ebac1f4a5829e2a4","type":"file","file":"keeplearing/Develop/01-编程语言/Python/面试/Web/Django.md","x":-860,"y":-250,"width":400,"height":400},
+		{"id":"80d35ad2401d04ee","type":"file","file":"keeplearing/Develop/01-编程语言/Python/面试/Web/FastAPI.md","x":-80,"y":-680,"width":400,"height":400},
+		{"id":"92087f69031338b8","type":"file","file":"keeplearing/Develop/01-编程语言/Python/面试/Web/Flask.md","x":-80,"y":260,"width":400,"height":400},
+		{"id":"0478969ead3b7f59","type":"file","file":"keeplearing/Develop/01-编程语言/Python/面试/Web/Flask 对比 FastAPI.md","x":-80,"y":-200,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"9fabfe36d92022f7","fromNode":"7e02add2e392816d","fromSide":"top","toNode":"80d35ad2401d04ee","toSide":"left"},
+		{"id":"be1ef598d2fc01e0","fromNode":"7e02add2e392816d","fromSide":"bottom","toNode":"92087f69031338b8","toSide":"left"},
+		{"id":"d53e906ed51b7ed2","fromNode":"7e02add2e392816d","fromSide":"left","toNode":"ebac1f4a5829e2a4","toSide":"right"},
+		{"id":"6d27a8f474f826ee","fromNode":"80d35ad2401d04ee","fromSide":"bottom","toNode":"0478969ead3b7f59","toSide":"top"},
+		{"id":"06dced9a5380426e","fromNode":"92087f69031338b8","fromSide":"top","toNode":"0478969ead3b7f59","toSide":"bottom"}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"26b59cdf2c7bd1bc","x":-280,"y":-40,"width":250,"height":60,"type":"text","text":"Python 梳理"},
+		{"id":"78ef0b1cf5191aa2","x":80,"y":-440,"width":400,"height":400,"color":"2","type":"file","file":"keeplearing/Develop/Python/面试/基础梳理/Python 基础.md"},
+		{"id":"7b40a535b8450752","x":80,"y":60,"width":400,"height":400,"color":"4","type":"file","file":"keeplearing/Develop/Python/面试/基础梳理/Python 进阶.md"}
+	],
+	"edges":[
+		{"id":"fec58c586f952ef2","fromNode":"26b59cdf2c7bd1bc","fromSide":"right","toNode":"78ef0b1cf5191aa2","toSide":"left"},
+		{"id":"cdbcba232d69852c","fromNode":"26b59cdf2c7bd1bc","fromSide":"right","toNode":"7b40a535b8450752","toSide":"left"}
+	]
+}

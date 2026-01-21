@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"9b8d107c3f9188c0","type":"file","file":"keeplearing/Develop/02-Web开发/Web 通信方式/HTTP/HTTPS.md","x":-340,"y":-450,"width":400,"height":400,"color":"5"},
+		{"id":"8e8cc05590a75e76","type":"file","file":"keeplearing/Develop/02-Web开发/Web 通信方式/HTTP/JWT、Session、Cookie.md","x":-340,"y":10,"width":400,"height":400,"color":"2"},
+		{"id":"a031569cf3d64177","type":"text","text":"HTTP高频考点\n","x":-700,"y":-50,"width":250,"height":60,"color":"1"},
+		{"id":"38d5e4a73d28fd38","type":"file","file":"keeplearing/Develop/02-Web开发/Web 通信方式/HTTP/HTTP.md","x":-1260,"y":-450,"width":400,"height":400,"color":"6"},
+		{"id":"077f51731bc653a3","type":"file","file":"keeplearing/Develop/02-Web开发/Web 通信方式/HTTP/HTTP、WebSocket、SSE.md","x":-1260,"y":40,"width":400,"height":370,"color":"4"}
+	],
+	"edges":[
+		{"id":"ddbc7bcb4c817d81","fromNode":"a031569cf3d64177","fromSide":"right","toNode":"9b8d107c3f9188c0","toSide":"left"},
+		{"id":"e138cf068d25738b","fromNode":"a031569cf3d64177","fromSide":"right","toNode":"8e8cc05590a75e76","toSide":"left"},
+		{"id":"98478fd27447a93e","fromNode":"a031569cf3d64177","fromSide":"left","toNode":"38d5e4a73d28fd38","toSide":"right"},
+		{"id":"fcd7b5b185e1d3b5","fromNode":"a031569cf3d64177","fromSide":"left","toNode":"077f51731bc653a3","toSide":"right"}
+	]
+}
